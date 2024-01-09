@@ -1,20 +1,9 @@
-/* :root {
-  
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Orbitron:wght@600&display=swap');
 body {
   min-height: 100vh;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Orbitron:wght@600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +11,13 @@ body {
 
 body {
   font-family: 'Nova Square', sans-serif;
+  background-image: url('./assets/15740871_268_Organic_White_Background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    /*
+    <a href="https://www.freepik.com/free-vector/organic-white-backgroun_15740871.htm#from_view=detail_alsolike">Image by alicia_mb</a>on Freepik
+    */
 }
 
 html {
